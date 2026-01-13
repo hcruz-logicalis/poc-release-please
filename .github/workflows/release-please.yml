@@ -3,7 +3,7 @@ name: release-please
 on:
   push:
     branches:
-      - main
+      - main  # Solo queremos que actúe cuando algo llegue a main
 
 permissions:
   contents: write
@@ -15,5 +15,7 @@ jobs:
     steps:
       - uses: google-github-actions/release-please-action@v4
         with:
-          release-type: node
+          # Usamos modo manifest para soportar configuración custom y multilenguaje si fuera necesario
+          manifest-file: .release-please-manifest.json
+          config-file: release-please-config.json
           target-branch: main
