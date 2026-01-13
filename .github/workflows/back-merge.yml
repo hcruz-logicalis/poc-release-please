@@ -1,21 +1,21 @@
-name: Back-merge Release to Develop
+# name: Back-merge Release to Develop
 
-on:
-  release:
-    types: [published] # Se dispara cuando la release de release-please se publica
+# on:
+#   release:
+#     types: [published] 
 
-jobs:
-  back-merge:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Necesario para tener el historial de ambas ramas
-          ref: develop
+# jobs:
+#   back-merge:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4
+#         with:
+#           fetch-depth: 0
+#           ref: develop
 
-      - name: Merge main into develop
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git merge origin/main
-          git push origin develop
+#       - name: Merge main into develop
+#         run: |
+#           git config user.name "github-actions[bot]"
+#           git config user.email "github-actions[bot]@users.noreply.github.com"
+#           git merge origin/main
+#           git push origin develop
