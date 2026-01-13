@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.2.0](https://github.com/hcruz-logicalis/poc-release-please/compare/v2.1.0...v2.2.0) (2026-01-13)
+
+
+### Features
+
+* unified both workflows ([db3aa59](https://github.com/hcruz-logicalis/poc-release-please/commit/db3aa59295ded4db266226dd1e6ee25c61aa8693))
+* unified both workflows ([bcf0a0f](https://github.com/hcruz-logicalis/poc-release-please/commit/bcf0a0fabd354712db6da462f7ebffe3c277b164))
+
 ## [2.1.0](https://github.com/hcruz-logicalis/poc-release-please/compare/v2.0.0...v2.1.0) (2026-01-13)
 
 
