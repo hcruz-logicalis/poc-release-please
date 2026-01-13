@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.2.1](https://github.com/hcruz-logicalis/poc-release-please/compare/v2.2.0...v2.2.1) (2026-01-13)
+
+
+### Bug Fixes
+
+* hotfix on workflow for back-merge ([c95a070](https://github.com/hcruz-logicalis/poc-release-please/commit/c95a070c6e57b5ff81c3468679d6763938ac98a7))
+* hotfix on workflow for back-merge ([b13e139](https://github.com/hcruz-logicalis/poc-release-please/commit/b13e13926e6f2174b0e7748e5447606a36270f28))
+
 ## [2.2.0](https://github.com/hcruz-logicalis/poc-release-please/compare/v2.1.0...v2.2.0) (2026-01-13)
 
 
