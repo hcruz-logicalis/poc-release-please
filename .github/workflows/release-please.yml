@@ -13,8 +13,25 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - uses: googleapis/release-please-action@v4
+        id: release
         with:
           manifest-file: .release-please-manifest.json
           config-file: release-please-config.json
           target-branch: main
+
+      - name: Back-merge main into develop
+        if: ${{ steps.release.outputs.releases_created }} 
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          echo "Sincronizando develop con la nueva release..."
+          git checkout develop
+          git pull origin develop
+          git merge origin/main
+          git push origin develop
