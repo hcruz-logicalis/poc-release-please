@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.1.0](https://github.com/hcruz-logicalis/poc-release-please/compare/v2.0.0...v2.1.0) (2026-01-13)
+
+
+### Features
+
+* add advanced workflows and manifest support ([97b2fdd](https://github.com/hcruz-logicalis/poc-release-please/commit/97b2fddc0cbc175cc6688e3ef24bb742c12a39a8))
+* nueva release ([7fd90d0](https://github.com/hcruz-logicalis/poc-release-please/commit/7fd90d0742ce2387b01f141c384a586b63d94df7))
+* nueva release ([c69ccfd](https://github.com/hcruz-logicalis/poc-release-please/commit/c69ccfdb950636bf57d26a2edd7807bb61759250))
+
 ## [2.0.0](https://github.com/hcruz-logicalis/poc-release-please/compare/v1.0.0...v2.0.0) (2026-01-13)
 
 
