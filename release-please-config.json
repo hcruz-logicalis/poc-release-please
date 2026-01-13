@@ -1,0 +1,19 @@
+{
+    "packages": {
+        ".": {
+            "release-type": "simple",
+            "extra-files": [
+                {
+                    "type": "json",
+                    "path": "project-manifest.json",
+                    "jsonpath": "$.artifact-version"
+                },
+                {
+                    "type": "json",
+                    "path": "package.json",
+                    "jsonpath": "$.version"
+                }
+            ]
+        }
+    }
+}
