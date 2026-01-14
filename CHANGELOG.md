@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.4.0](https://github.com/hcruz-logicalis/poc-release-please/compare/v2.3.0...v2.4.0) (2026-01-14)
+
+
+### Features
+
+* test ([dbb5a35](https://github.com/hcruz-logicalis/poc-release-please/commit/dbb5a358137c312fffb6414b2e87a9260b70dddf))
+
+
+### Bug Fixes
+
+* this is a fix test ([8f2543f](https://github.com/hcruz-logicalis/poc-release-please/commit/8f2543f49982f16a150a3399da4f5f7457724548))
+
 ## [2.3.0](https://github.com/hcruz-logicalis/poc-release-please/compare/v2.2.1...v2.3.0) (2026-01-14)
 
 
