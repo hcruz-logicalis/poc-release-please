@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.0](https://github.com/hcruz-logicalis/poc-release-please/compare/v2.2.1...v2.3.0) (2026-01-14)
+
+
+### Features
+
+* validamos el titulo y ignora commit ([77862af](https://github.com/hcruz-logicalis/poc-release-please/commit/77862af5737c05af1c35dad1591261f1ae2d95f5))
+
 ## [2.2.1](https://github.com/hcruz-logicalis/poc-release-please/compare/v2.2.0...v2.2.1) (2026-01-13)
 
 
